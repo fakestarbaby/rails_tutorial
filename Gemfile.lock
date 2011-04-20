@@ -34,6 +34,12 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.0.25)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
     heroku (1.20.1)
       launchy (~> 0.3.2)
       rest-client (>= 1.4.0, < 1.7.0)
@@ -99,6 +105,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml-rails
   heroku
   rails (= 3.0.7)
   rspec
