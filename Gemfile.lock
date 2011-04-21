@@ -37,6 +37,8 @@ GEM
     autotest-growl (0.2.9)
     autotest-rails-pure (4.1.2)
     builder (2.1.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     configuration (1.2.0)
     diff-lcs (1.1.2)
     erubis (2.6.6)
@@ -119,6 +121,7 @@ DEPENDENCIES
   autotest-fsevent
   autotest-growl
   autotest-rails-pure
+  compass
   haml-rails
   heroku
   rails (= 3.0.7)

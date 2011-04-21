@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
+gem 'compass'
 gem 'haml-rails'
 gem 'settingslogic'
 gem 'sqlite3-ruby', :require => 'sqlite3'
