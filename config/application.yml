@@ -1,0 +1,11 @@
+defaults: &defaults
+  base_title: "Ruby on Rails Tutorial Sample App"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
